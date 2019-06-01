@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>try template thymeleaf</title>
+</head>
+<body>
+	<div th:insert="layout/header"></div>
+	Hello Thymeleaf Thymeleafのth:text内で算術演算子が使用出来たり変数を参照したりできる
+	<br /> null値 真偽値 文字列 数字を扱うことができる&lt;div
+	th:text="text"&gt;&lt;/div&gt;の様に使用する
+	<br /> 3項演算子を使用することも可能
+	<br />@を使用するとコンテキストパスを補完した形式で出力できる[[@{http://localhost:8080:boot/}]]
+	<br />th:withで変数の宣言 th:ifで条件分岐 th:eachでループ処理 th:insertで埋め込み
+	<br />th:fragmentでフラグメントを指定する th:replaceで完全に置き換える
+	<br />layoutのネームスペースを使用するにはthymeleaf-layout-dialectの拡張機能が必要(ここでは行わない)
+	<div th:insert="layout/footer :: appear"></div>
+</body>
+</html>

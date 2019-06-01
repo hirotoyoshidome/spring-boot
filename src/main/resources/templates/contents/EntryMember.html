@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>メンバー登録画面</title>
+</head>
+<body>
+
+<div>メンバー登録画面</div>
+
+<div>登録いただきますとメルマガによって情報を得たりメンバー限定メニューを使用できるようになります。
+登録はメールアドレスのみの無料で登録可能です。
+是非、登録お願い致します。
+</div>
+
+<form name="" action="" method="">
+	<div>苗字 : </div><input type="text" name="last_name" value=""/><br/>
+	<div>名前 : </div><input type="text" name="first_name" value=""/><br/>
+
+	<div>パスワード : </div><input type="password" name="password" value=""/><br/>
+	<div>性別 : </div>
+		<input type="radio" name="gender" value="male"/><div>男性</div>   
+		<input type="radio" name="gender" value="female"/><div>女性</div><br/>
+
+	<div>メースアドレス : </div><input type="text" name="mailAddress" value=""/><br/>
+
+	<div>職業 : </div>
+		<select name="occupation">
+			<option value="">下記の選択肢より選択してください</option>
+			<option value="1">公務員</option>
+			<option value="2">金融業・会計</option>
+			<option value="3">営業</option>
+			<option value="4">技術職</option>
+			<option value="5">医療職・介護職</option>
+			<option value="6">飲食関連</option>
+			<option value="7">建築・土木関連</option>
+			<option value="8">教育関連職</option>
+			<option value="9">法律関連職</option>
+			<option value="0">その他</option>
+		</select>
+	<div>その他を選択した場合は下記に詳細を記述してください。</div>
+		<input type="text" name="occupation" value=""/><br/><!-- その他を選択した場合に使用 -->
+	<input type="submit" value="確認へ"/>
+</form>
+
+</body>
+</html>
