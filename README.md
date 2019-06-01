@@ -26,4 +26,4 @@ http://localhost:8080/boot/tpl
 ```
 http://localhost:8080/boot/person
 ```
-この画面でMyBatisの動作確認お行ってみた。
+この画面でMyBatisの動作確認を行ってみた。
